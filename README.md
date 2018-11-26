@@ -50,4 +50,40 @@ The unique values of the dataset was analayzed and only one categorical variable
 ### 1.3 Dependant variable
 The values in the dependant variable was compared using a histogram. There were more Benign cases than Malignant.
 
-###
+### 1.4 Analyzing the numerical variables
+The distribution of the numerical variable was compared against its normalized form and its log transformed form.
+
+### 1.5 Analyzing the correlation of variables
+Each variable was compared against the other variables with the help of a heat map.
+
+### 1.6 Excluding one variable that is correlated
+The highly correlated variables were excluded
+
+### 1.7 Analyzing the distribution of each numerical variable
+Refer 1.4 - Graphs were produced
+
+### 1.8 Treating outliers
+Created a copy of the dataset to predict the model performance before and after remove outliers
+
+### 1.9 Log transforming the numerical variables
+Log transorm looked the best way to represent the numerical variables
+
+### 1.10 Removing the ID variable
+ID variable was removed since it does not ontribute to the prediction
+
+## 2.0 Model Training
+### 2.1 Logistic Regression
+2.1 Using Logistic Regression to predict the model's preformance
+
+### 2.2 Without outliers
+Analyzing the prerformance of the model without outliers
+
+### 2.3 With outliers
+Analyzing the prerformance of the model without outliers
+
+### 2.4 Support Vector Machine
+Using support vector machine with different parameters (Cross validation was applied)
+
+## 3.0 Comparing different techniques and optimizing the algorithm
+### 3.1 Using cross validation and fitting SVM, Decision Tree Classifier
+### 3.2 Accuracy, Precision and Recall values of SVM and Decision Tree Classifier
