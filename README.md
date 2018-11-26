@@ -87,3 +87,5 @@ Using support vector machine with different parameters (Cross validation was app
 ## 3.0 Comparing different techniques and optimizing the algorithm
 ### 3.1 Using cross validation and fitting SVM, Decision Tree Classifier
 ### 3.2 Accuracy, Precision and Recall values of SVM and Decision Tree Classifier
+
+# END
