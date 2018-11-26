@@ -7,56 +7,36 @@ A benign tumor is a tumor that does not invade its surrounding tissue or spread 
 
 The dataset consisted of 32 columns and 
 
-ID number
 
-diagnosis
-The diagnosis of breast tissues (M = malignant, B = benign)
-
-radius_mean
-mean of distances from center to points on the perimeter
-
-texture_mean
-standard deviation of gray-scale values
-
-perimeter_mean
-mean size of the core tumor
-
-area_mean
-smoothness_mean
-
-mean of local variation in radius lengths
-compactness_mean
-
-mean of perimeter^2 / area - 1.0
-concavity_mean
-
-mean of severity of concave portions of the contour
-concave points_mean
-
-mean for number of concave portions of the contour
-symmetry_mean
-
-fractal_dimension_mean
-mean for "coastline approximation" - 1
-
-radius_se
-standard error for the mean of distances from center to points on the perimeter
-
-texture_se
-standard error for standard deviation of gray-scale values
-
-perimeter_se
-
-area_se
-
-smoothness_se
-standard error for local variation in radius lengths
-
-compactness_se
-standard error for perimeter^2 / area - 1.0
-
-concavity_se
-standard error for severity of concave portions of the contour
-
-concave points_se
-standard error for number of concave portions of the contour
+1. id - ID number
+2. diagnosis - The diagnosis of breast tissues (M = malignant, B = benign)
+3. radius_mean - mean of distances from center to points on the perimeter
+4. texture_mean - standard deviation of gray-scale values
+5. perimeter_mean - mean size of the core tumor
+6. area_mean
+7. smoothness_mean - mean of local variation in radius lengths
+8. compactness_mean - mean of perimeter^2 / area - 1.0
+9. concavity_mean - mean of severity of concave portions of the contour
+10. concave points_mean - mean for number of concave portions of the contour
+11. symmetry_mean
+12. fractal_dimension_mean - mean for "coastline approximation" - 1
+13. radius_se - standard error for the mean of distances from center to points on the perimeter
+14. texture_se - standard error for standard deviation of gray-scale values
+15. perimeter_se
+16. area_se
+17. smoothness_se - standard error for local variation in radius lengths
+18. compactness_se - standard error for perimeter^2 / area - 1.0
+19. concavity_se - standard error for severity of concave portions of the contour
+20. concave points_se - standard error for number of concave portions of the contour
+21. symmetry_se
+22. fractal_dimension_se - standard error for "coastline approximation" - 1
+23. radius_worst - "worst" or largest mean value for mean of distances from center to points on the perimeter
+24. texture_worst - "worst" or largest mean value for standard deviation of gray-scale values
+25. perimeter_worst
+26. area_worst
+27. smoothness_worst - "worst" or largest mean value for local variation in radius lengths
+28. compactness_worst - "worst" or largest mean value for perimeter^2 / area - 1.0
+29. concavity_worst - "worst" or largest mean value for severity of concave portions of the contour
+30. concave points_worst - "worst" or largest mean value for number of concave portions of the contour
+31. symmetry_worst 
+32. fractal_dimension_worst - "worst" or largest mean value for "coastline approximation" - 1
