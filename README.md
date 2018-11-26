@@ -85,7 +85,11 @@ Analyzing the prerformance of the model without outliers
 Using support vector machine with different parameters (Cross validation was applied)
 
 ## 3.0 Comparing different techniques and optimizing the algorithm
-### 3.1 Using cross validation and fitting SVM, Decision Tree Classifier
-### 3.2 Accuracy, Precision and Recall values of SVM and Decision Tree Classifier
 
+### 3.1 Using cross validation and fitting SVM, Decision Tree Classifier
+SVM was compared against Decision Tree Classifier
+### 3.2 Accuracy, Precision and Recall values of SVM and Decision Tree Classifier
+The Accuracy, Precision and Recall scores were compared
+
+The model can be imporved further by playing with the Decision Tree Classifier's Parameters.
 # END
