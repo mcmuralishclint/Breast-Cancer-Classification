@@ -3,9 +3,9 @@
 A tumor is a mass of abnormal tissue. There are two types of breast cancer tumors: those that are non-cancerous, or 'benign', and those that are cancerous, which are 'malignant'. 
 A benign tumor is a tumor that does not invade its surrounding tissue or spread around the body. A malignant tumor is a tumor that may invade its surrounding tissue or spread around the body.
 
-## Exploratory Data Analaysis
+## 1.0 Exploratory Data Analaysis
 
-The dataset consisted of 32 columns and 
+The dataset consisted of 32 columns and the description of each column is listed below
 
 
 1. id - ID number
@@ -40,3 +40,7 @@ The dataset consisted of 32 columns and
 30. concave points_worst - "worst" or largest mean value for number of concave portions of the contour
 31. symmetry_worst 
 32. fractal_dimension_worst - "worst" or largest mean value for "coastline approximation" - 1
+
+## 1.1 Initially the data was checked for null values and an empty column was present in the dataset. This column was removed.
+
+## 1.2 The unique values of the dataset was analayzed and only one categorical variable was found and that is the dependant variable. (The rest of the variables are numerical)
