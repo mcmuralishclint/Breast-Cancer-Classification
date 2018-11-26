@@ -41,6 +41,13 @@ The dataset consisted of 32 columns and the description of each column is listed
 31. symmetry_worst 
 32. fractal_dimension_worst - "worst" or largest mean value for "coastline approximation" - 1
 
-### 1.1 Initially the data was checked for null values and an empty column was present in the dataset. This column was removed.
+### 1.1 Null Values
+Initially the data was checked for null values and an empty column was present in the dataset. This column was removed.
 
-### 1.2 The unique values of the dataset was analayzed and only one categorical variable was found and that is the dependant variable. (The rest of the variables are numerical)
+### 1.2 Unique values 
+The unique values of the dataset was analayzed and only one categorical variable was found and that is the dependant variable. (The rest of the variables are numerical)
+
+### 1.3 Dependant variable
+The values in the dependant variable was compared using a histogram. There were more Benign cases than Malignant.
+
+###
